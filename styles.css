@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Play:wght@400;700&display=swap');
+
+/*Configurações Gerais*/
+/***********************/
+html{
+    /*Porcentagem da Fonte Padrão do Navegador do Usuário*/
+    font-size: 62.5%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+*{
+    font-family: "Play", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #333;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #c4d7f2,#d8e5f7);
+}
+
+
+.main{
+    background-image: linear-gradient(to right,#3a7bd5,#3a6073);
+    height: 95%;
+    padding: 2rem 4rem;
+    border-radius: 5px;
+}
+.header{
+width: 50%;
+margin: auto;
+text-align: center;
+padding: 1rem 2rem;
+}
+h1{
+    font-size: 3.4rem;
+    color: #444;
+    font-weight: 600;
+}
+h2{
+    color:#444;
+    font-size: 1.8rem;
+}
+.section{
+    width: 90%;
+    margin: auto;
+}
+.section h2,
+.projetos{
+    text-align: center;
+    font-weight: 600;
+}
+.projetos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 1rem;
+    row-gap: .5rem;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+}
+.projeto,
+.imagem{
+    background-color: #4e88d9;
+    width: 20rem;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.imagem img{
+   background-size: cover;
+    width: 90%;
+    height: 90%;
+}
+.footer{
+    width: 75%;
+    height: 1rem;
+    margin:-1rem  auto 0;
+    text-align: center;
+    font-size: 1.4rem;
+}
+a:link,
+a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover,
+a:active{
+    color: #173155;
+}
+
+/***********************/
+/*Elementos Específicos*/
+strong{
+    font-weight: 500;
+    color: #112540;
+}
+.icon{
+    font-size: 2.2rem;
+    color: #F0DB4F
+}
+.icon-p{
+    font-size: 1.8rem;
+    color: #112540;
+}
+.hover:hover{
+    background-color:#6195dd ;
+}
+.btn-home a:link,
+.btn-home a:visited{
+    color: inherit;
+    text-decoration: none;
+}
