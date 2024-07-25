@@ -18,6 +18,7 @@ header{
 section{
     background-color: white;
     border-radius: 10px;
+    display: grid;
     padding: 15px;
     width: 500px;
     margin: auto;
@@ -33,6 +34,10 @@ div{
 }
 div#show{
     border: 2px solid black;
+}
+.btn-home{
+    margin: 1rem auto 0;
+    
 }
 .btn-home a:link,
 .btn-home a:visited{
