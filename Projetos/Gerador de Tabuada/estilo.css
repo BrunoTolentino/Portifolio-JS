@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(17, 101, 226), rgb(57, 57, 221), rgb(226, 78, 226));
+    background-repeat: no-repeat;
+    font: normal 1em Arial;
+    height: 100vh;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+div{
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+div#Input{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div#res{
+    border: 2px dashed orangered;
+    text-align: center;
+    display: none;
+}
+div#res > p{
+    border-bottom: 2px solid orangered;
+}
