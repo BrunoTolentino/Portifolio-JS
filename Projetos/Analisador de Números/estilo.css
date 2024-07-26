@@ -44,3 +44,12 @@ div#show{
     color: inherit;
     text-decoration: none;
 }
+@media (max-width:900px) {
+    html{
+        overflow: scroll;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+    }
+}
