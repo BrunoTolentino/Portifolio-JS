@@ -131,7 +131,11 @@ strong{
     html{
         /*Porcentagem da Fonte Padrão do Navegador do Usuário*/
         font-size: 42.5%;
-        overflow-x: hidden;
+        overflow: scroll;
+    }
+    body{
+        height: 100%;
+        width: 100%;
     }
     .projeto{
         grid-column: 1;
